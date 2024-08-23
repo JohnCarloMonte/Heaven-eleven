@@ -1,0 +1,35 @@
+body {
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: rgb(249, 222, 222);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header h1 {
+    margin: 0;
+}
+#menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#menu li {
+    display: inline;
+    margin-right: 10px;
+}
+#menu li:last-child {
+    margin-right: 0;
+}
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+#menu .separator {
+    margin-right: 5px;
+    margin-left: 5px;
+}
